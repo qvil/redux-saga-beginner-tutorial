@@ -20,8 +20,8 @@ export function* raceTest() {
         second: call(delay, 2000),
     })
 
-    console.log(`first : ${first}`)
-    console.log(`second : ${second}`)
+    console.log(`first : ${first}`) // first : true
+    console.log(`second : ${second}`) // second : undefined
 }
 
 export default function* rootSaga() {
